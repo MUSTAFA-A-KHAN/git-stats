@@ -47,9 +47,10 @@ jobs:
     # Commit all changed files to the repository
     - name: Commit to the repo
       run: |
-        git config --global user.name "jstrieb/github-stats"
-        git config --global user.email "github-stats[bot]@jstrieb.github.io"
+        git config --global user.name "MUSTAFA-A-KHAN"
+        git config --global user.email "70553059+MUSTAFA-A-KHAN@users.noreply.github.com"
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update Mustafa stats' || true
         git push
+        
